@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: 394eead3-af08-4f92-9694-886be15acf67
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! cc02e6fd-4705-47e9-b07b-65934c842256
+    Parts:
+        -   Entity:
+                Id: cc02e6fd-4705-47e9-b07b-65934c842256
+                Name: Sphere, Static 5120
+                Components:
+                    f65f0ec6787400c3a433dd93ba78b2ce: !TransformComponent
+                        Id: 0393161a-e5d1-443a-8ad6-74631f47fe6e
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    821e99fb92948545a3fce73b67dd07fe: !ModelComponent
+                        Id: f26efc3a-2ade-40d5-a6a3-6854c556e856
+                        Model: 79f03e3c-e272-4e09-8d9c-cf9894551869:LOD/Models/5120
+                        Materials:
+                            4f69255831f806df15805de9bfc968cf~0: 30d24faa-463e-4e13-be02-2b7e59798994:LOD/Materials/static_5120

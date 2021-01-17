@@ -1,0 +1,15 @@
+!Model
+Id: 79f03e3c-e272-4e09-8d9c-cf9894551869
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../LOD/5120.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    53fe79b2571c45a49aa3ca55c000fef4:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    cf3649b5a3bdbbc2cd041ae87d39f7db~../../../../LOD/5120.fbx: 5ffa7ef7a7d0bd8117fcf47264472518

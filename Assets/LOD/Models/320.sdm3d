@@ -1,0 +1,15 @@
+!Model
+Id: 071bfb61-d869-48fc-9a54-55a7f43520b4
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../LOD/320.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    1ccc693eeea93ba0fea85dc884523b76:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    8ccf79d8095f98d411ffbb2738f7bbad~../../../../LOD/320.fbx: 3d2cfe5843f1341abec82466a638159c

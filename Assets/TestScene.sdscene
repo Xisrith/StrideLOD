@@ -1,0 +1,146 @@
+!SceneAsset
+Id: b6fb1d42-7674-4712-98f5-6725e1903a5e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+ChildrenIds: []
+Offset: {X: 0.0, Y: 0.0, Z: 0.0}
+Hierarchy:
+    RootParts:
+        - ref!! ce5db689-2dcc-46ce-8b92-8b570418ceb9
+        - ref!! f8a46829-1f96-4bbb-bc05-884850876b8b
+        - ref!! e4f53382-40fb-403a-8ae6-a0e687268a36
+        - ref!! fdb3090e-3155-4155-af11-dfa121353ecb
+        - ref!! a0c2c8a6-5231-4bb5-8c33-e5ce6ad465a1
+        - ref!! 98272333-190a-4531-b09c-504b2657a13c
+    Parts:
+        -   Entity:
+                Id: 0f859c42-c5b0-4551-8b4a-a7d3b96f23a9
+                Name: Camera
+                Components:
+                    9c41526a246ada67e00f614a854a5190: !TransformComponent
+                        Id: d96eb18b-a8d4-4322-a5a9-0daadf069300
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: -4.371139E-08, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    1d25e309e59fd6c99c0f5bef4a46eb20: !CameraComponent
+                        Id: d4d388a8-1da6-4b34-94f3-da47a82bfcbf
+                        Name: null
+                        Projection: Perspective
+                        VerticalFieldOfView: 60.0
+                        Slot: f1ef5817-0725-4b1a-abc9-845d101ec0e6
+        -   Entity:
+                Id: 98272333-190a-4531-b09c-504b2657a13c
+                Name: Profiler
+                Components:
+                    10a7d6d59e028bbdb60d8e60044fc4f9: !TransformComponent
+                        Id: 5bcf5d56-4286-4b71-9e2f-09bff41751f6
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    78a532c286582d7ce75b2419f504c2f5: !FirstPersonShooter.Profiling.GameProfiler,FirstPersonShooter.Game
+                        Id: cd631d28-4143-49cf-9238-2c3aaf0c1d4c
+                        Enabled: true
+                        TextColor: {R: 144, G: 238, B: 144, A: 255}
+                        RefreshTime: 500.0
+                        SortingMode: ByTime
+                        FilteringMode: Fps
+                        ResultPage: 1
+                        LogFile: null
+                    6a944a0fd52cecead8a80fb9b842daf9: !FirstPersonShooter.Profiling.LoggingWriter,FirstPersonShooter.Game
+                        Id: 0c08df59-d10a-4553-b9d7-36c743b12106
+                        Priority: -1
+                        Enabled: true
+                        Filename: D:\Stride Projects\LOD\profiler_two.db
+        -   Entity:
+                Id: a0c2c8a6-5231-4bb5-8c33-e5ce6ad465a1
+                Name: Camera Entity
+                Components:
+                    70468c37b74782fb32038d5b0ed8ea14: !TransformComponent
+                        Id: e2e7018a-6314-449a-8f6b-679a74133e51
+                        Position: {X: 15.0, Y: 14.1564016, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children:
+                            a5f9d43ad8f3d0f97c25da563b3a745d: ref!! d96eb18b-a8d4-4322-a5a9-0daadf069300
+                    0a37390fca60ebdc9b0329199f673172: !FirstPersonShooter.CameraTrack,FirstPersonShooter.Game
+                        Id: 2beb7f0a-7026-44c8-b731-e12c6f2864f2
+                        Priority: 20
+                        CameraFocalPoint: ref!! 04bb1195-c5ab-44c9-b45b-15f9790b3585
+                        CameraTrackPoints: {}
+                        Speed: 2.0
+        -   Entity:
+                Id: ce5db689-2dcc-46ce-8b92-8b570418ceb9
+                Name: LOD Service
+                Components:
+                    9d4dd7aaaf74aed650b296a4f2f07188: !TransformComponent
+                        Id: 5c2d0659-1f1d-4dca-b68a-0065293cbf02
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    d4b685c14b530b3b62074c9b9c92ff32: !FirstPersonShooter.LOD.LodSettings,FirstPersonShooter.Game
+                        Id: f40257de-5b68-4fe9-a5b8-ab510dca83dc
+                        FocalPoint: ref!! e2e7018a-6314-449a-8f6b-679a74133e51
+        -   Entity:
+                Id: e4f53382-40fb-403a-8ae6-a0e687268a36
+                Name: Test Factory
+                Components:
+                    d93385df741a8b1a4697de82cfefbc7b: !TransformComponent
+                        Id: 3305a09a-9a04-4206-a3bc-c05dda5ad506
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    cb9d60c73e319a80dbcdd6015c156d6b: !FirstPersonShooter.TestFactory,FirstPersonShooter.Game
+                        Id: bcc6102d-ad03-42ff-aefd-09f820bb9301
+                        Enabled: true
+                        CameraTrack: ref!! 2beb7f0a-7026-44c8-b731-e12c6f2864f2
+                        CameraTrackPointPrefab: b92447da-7431-46e3-988b-c5e7afc568e9:Camera Track Point
+                        FloorPrefab: 7849e11f-5838-49bc-9898-d8ef7c09bcd5:BlocksPrefabs/GridBase10x10
+                        FloorSpacing: 10
+                        SpherePrefabs:
+                            82f735499b46ff04bfc9d1b7fe3478cb~static_20: d7c1eeff-4618-476c-bbcd-8b001a6ea13e:LOD/Prefabs/Sphere, Static 20
+                            e8c7c7d140472fda108f6525d04a1d0b~lod_generic: 773db974-aa31-437c-ba00-304e5ac422f4:LOD/Prefabs/Sphere, LOD Generic
+                            91c7bf0c23d48014899660a30d1f844b~lod_model: cfe15e4d-d28b-4f2a-a31f-d36eee8351fd:LOD/Prefabs/Sphere, LOD Model
+                            76f1163991ae572e95b9e617724a51a1~static_320: c63f55c8-c4bb-4ee7-b238-8ddb3d66d686:LOD/Prefabs/Sphere, Static 320
+                            d926149e4d8ff67af29f4064f3f91adf~static_80: 5ff7d389-08b0-438e-9c38-4508f58f1098:LOD/Prefabs/Sphere, Static 80
+                            529b6836ee45d377d4e57b9e9df38cf3~static_1080: f2f6885b-916e-421c-95fb-08705e9a3752:LOD/Prefabs/Sphere, Static 1080
+                            32d2df323ac63da8d7996c447bbe6778~static_5120: 394eead3-af08-4f92-9694-886be15acf67:LOD/Prefabs/Sphere, Static 5120
+                        DefaultSpherePrefab: static_20
+                        SphereSpacing: 3
+                        TestHeight: 5
+                        TestLength: 5
+                        TestWidth: 5
+        -   Entity:
+                Id: f8a46829-1f96-4bbb-bc05-884850876b8b
+                Name: Camera Focal Point
+                Components:
+                    d0ae0ca4a833ea128395d3d584d9a1ad: !TransformComponent
+                        Id: 04bb1195-c5ab-44c9-b45b-15f9790b3585
+                        Position: {X: 10.0, Y: 0.0, Z: 10.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+        -   Entity:
+                Id: fdb3090e-3155-4155-af11-dfa121353ecb
+                Name: Directional light
+                Components:
+                    799a09029743ccee8bbb45b4ceb1bc4d: !TransformComponent
+                        Id: d005396a-6660-4026-bb63-3ac264edc143
+                        Position: {X: 0.0, Y: 2.0, Z: 0.0}
+                        Rotation: {X: -0.57357645, Y: 0.0, Z: 0.0, W: 0.819152057}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    6f5ecd758972af89ee591c24b127de3e: !LightComponent
+                        Id: 3a095862-8aa1-400a-871e-41344201b871
+                        Type: !LightDirectional
+                            Color: !ColorRgbProvider
+                                Value: {R: 1.0, G: 1.0, B: 1.0}
+                            Shadow:
+                                Size: Large
+                                DepthRange: {}
+                                PartitionMode: !LightDirectionalShadowMap.PartitionLogarithmic {}
+                                BiasParameters: {}
+                                ComputeTransmittance: false

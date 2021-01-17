@@ -1,0 +1,40 @@
+!PrefabAsset
+Id: 773db974-aa31-437c-ba00-304e5ac422f4
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 2b1cb8d3-d9e5-4292-b708-2174e79ce1eb
+    Parts:
+        -   Entity:
+                Id: 2b1cb8d3-d9e5-4292-b708-2174e79ce1eb
+                Name: Sphere, LOD Generic
+                Components:
+                    f65f0ec6787400c3a433dd93ba78b2ce: !TransformComponent
+                        Id: 871d22cf-3af3-472d-b9bb-21210d0937f1
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    821e99fb92948545a3fce73b67dd07fe: !ModelComponent
+                        Id: 3a4639f1-5f46-4202-a532-34de1e7f5170
+                        Model: 87b35e8c-8269-4504-a9a8-a37a8b591cff:LOD/Models/20
+                        Materials:
+                            e615ae5ef593768a3ea7c060c01765c1~0: 08fd01a9-6a75-42a7-9210-fbd14beb62d6:LOD/Materials/lod_generic
+                    b140abedf1f9f2c1f2415f7e715d0ed2: !FirstPersonShooter.LOD.GenericLodComponent,FirstPersonShooter.Game
+                        Id: 38f18d92-f40a-4112-a456-e2ef9fa85aaf
+                        ModelComponent: ref!! 3a4639f1-5f46-4202-a532-34de1e7f5170
+                        LodModels:
+                            6702c3f25f24b80f5b1a05d62d2f22dd:
+                                Distance: 2.0
+                                Model: f6683cc9-b907-4b1f-8945-659ddffe881e:LOD/Models/1280
+                            ca21204c3fe6085159e90dae3979e23c:
+                                Distance: 10.0
+                                Model: 071bfb61-d869-48fc-9a54-55a7f43520b4:LOD/Models/320
+                            7ebaefc652a66bdeee86533ce8a49fe2:
+                                Distance: 20.0
+                                Model: f874137f-f8b8-49b7-a8b9-537a7fee13c3:LOD/Models/80
+                            4c1a349815597a1b36b764fd57d56712:
+                                Distance: 30.0
+                                Model: 87b35e8c-8269-4504-a9a8-a37a8b591cff:LOD/Models/20
+                        Enabled: true

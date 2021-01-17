@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: d7c1eeff-4618-476c-bbcd-8b001a6ea13e
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 3f87c7d6-f3d9-4bdc-8361-c6d0a6397c5f
+    Parts:
+        -   Entity:
+                Id: 3f87c7d6-f3d9-4bdc-8361-c6d0a6397c5f
+                Name: Sphere, Static 20
+                Components:
+                    f65f0ec6787400c3a433dd93ba78b2ce: !TransformComponent
+                        Id: c5f720bf-71da-4409-9762-ec9f3572b4b3
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    821e99fb92948545a3fce73b67dd07fe: !ModelComponent
+                        Id: 509ff605-d475-4c9b-8c3a-a266618c016c
+                        Model: 87b35e8c-8269-4504-a9a8-a37a8b591cff:LOD/Models/20
+                        Materials:
+                            2890f84eff82a665001e3e07eeac73ff~0: 4892b594-72cf-4e33-93b1-0319e5e8dd07:LOD/Materials/static_20

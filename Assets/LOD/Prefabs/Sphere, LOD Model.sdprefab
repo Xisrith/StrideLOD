@@ -1,0 +1,31 @@
+!PrefabAsset
+Id: cfe15e4d-d28b-4f2a-a31f-d36eee8351fd
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! e6d16baf-057f-47ed-ac2b-07efcab9f7cb
+    Parts:
+        -   Entity:
+                Id: e6d16baf-057f-47ed-ac2b-07efcab9f7cb
+                Name: Sphere, LOD Model
+                Components:
+                    f65f0ec6787400c3a433dd93ba78b2ce: !TransformComponent
+                        Id: 289eabab-58b8-48fe-8dc7-c3facb231739
+                        Position: {X: 0.0, Y: 0.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    821e99fb92948545a3fce73b67dd07fe: !ModelComponent
+                        Id: 09fba1b0-5473-4f89-bb24-5e40ecaf5562
+                        Model: 87b35e8c-8269-4504-a9a8-a37a8b591cff:LOD/Models/20
+                        Materials:
+                            a52fcbb8699bd8248f255c384c4a3cf9~0: 70f8ac14-37bd-47da-b690-8b51f152999a:LOD/Materials/lod_model
+                    f423a819bafce45f000c27303329d330: !FirstPersonShooter.LOD.ModelLodComponent,FirstPersonShooter.Game
+                        Id: 01851186-d629-4764-b4a8-1d740f7d9c0e
+                        ModelLod0: f6683cc9-b907-4b1f-8945-659ddffe881e:LOD/Models/1280
+                        ModelLod1: 071bfb61-d869-48fc-9a54-55a7f43520b4:LOD/Models/320
+                        ModelLod2: f874137f-f8b8-49b7-a8b9-537a7fee13c3:LOD/Models/80
+                        ModelLod3: 87b35e8c-8269-4504-a9a8-a37a8b591cff:LOD/Models/20
+                        ModelComponent: ref!! 09fba1b0-5473-4f89-bb24-5e40ecaf5562
+                        Enabled: true

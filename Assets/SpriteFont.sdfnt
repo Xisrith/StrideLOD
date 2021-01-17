@@ -1,0 +1,10 @@
+!SpriteFont
+Id: e95a976c-0547-40ed-a04b-079096c0d77a
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+FontSource: !SystemFontProvider
+    FontName: Arial
+    Style: Bold
+FontType: !RuntimeRasterizedSpriteFontType
+    Size: 16.0
+DefaultCharacter: "\x10"

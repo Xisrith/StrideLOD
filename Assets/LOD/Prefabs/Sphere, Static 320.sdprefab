@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: c63f55c8-c4bb-4ee7-b238-8ddb3d66d686
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! a95cde2c-4ba7-42df-8b4b-20f5f25ccffb
+    Parts:
+        -   Entity:
+                Id: a95cde2c-4ba7-42df-8b4b-20f5f25ccffb
+                Name: Sphere, Static 320
+                Components:
+                    f65f0ec6787400c3a433dd93ba78b2ce: !TransformComponent
+                        Id: 9d52a199-c3b8-4a2e-9dbb-89f158235b45
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    821e99fb92948545a3fce73b67dd07fe: !ModelComponent
+                        Id: 08e29f8f-8ad1-494d-8df4-28221f51c815
+                        Model: 071bfb61-d869-48fc-9a54-55a7f43520b4:LOD/Models/320
+                        Materials:
+                            39964008268552079f5183169481d9dd~0: bdba2083-8f4a-4be2-8c6b-bbe8aa4c87c9:LOD/Materials/static_320

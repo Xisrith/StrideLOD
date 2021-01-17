@@ -1,0 +1,317 @@
+!UIPageAsset
+Id: e9948ea2-06e7-482b-b5ef-3697422ca7e4
+SerializedVersion: {Stride: 2.1.0.1}
+Tags: []
+Design:
+    Resolution: {X: 1280.0, Y: 720.0, Z: 1000.0}
+Hierarchy:
+    RootParts:
+        - !Grid ref!! 664574da-056a-4285-9663-f0cee959e29b
+    Parts:
+        -   UIElement: !ToggleButton
+                Id: 02716b87-49cd-4723-8a0c-b6f2bd64e7dd
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Left: 0.0, Top: 0.0, Right: 0.0, Bottom: 0.0}
+                Content: !TextBlock ref!! cac34010-9889-4584-8d22-64b842654589
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+            Base:
+                BasePartAsset: 59e8fd01-be6f-46fd-a05d-74521eea8427:UILibrary
+                BasePartId: 3ad9921f-3d07-4ddd-9174-5c93d6baa624
+                InstanceId: 1212d894-1c9e-4080-9adf-e43d19222e84
+        -   UIElement: !TextBlock
+                Id: 1669ebf9-ec18-424b-890f-8396b141a97c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: +
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !StackPanel
+                Id: 2f9f45c6-de3c-4e8b-afde-5e416e8c69e3
+                DependencyProperties: {}
+                BackgroundColor: {R: 255, G: 255, B: 255, A: 255}
+                Width: 300.0
+                Height: 688.0
+                HorizontalAlignment: Left
+                Margin: {Top: 32.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: EntityTreeView
+                Children:
+                    9ab4494bfce72fcbb382a8560ff6d57d: !Grid ref!! 3daf7076-127a-4f20-8db8-1d72e8ff4821
+                    77bd8996a6a33e7cbc50df9d7ba15768: !Grid ref!! 9e9800c9-ba62-4735-9b8c-e80e0382fb21
+        -   UIElement: !Grid
+                Id: 3daf7076-127a-4f20-8db8-1d72e8ff4821
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    2d7c8ea9b20c81bba459bc936087ab72: !ToggleButton ref!! 02716b87-49cd-4723-8a0c-b6f2bd64e7dd
+                    1d5caed482eda9019fdf8f90efaaf890: !Button ref!! 73f81ab2-e6d8-4a49-b373-2b98751d5d32
+                RowDefinitions:
+                    4ffac4d876388e534a90953ccc86673f:
+                        MaximumSize: 3.40282347E+38
+                        MinimumSize: 24.0
+                        Type: Fixed
+                ColumnDefinitions:
+                    54a0b1af60c678c9bf8582b3f2594d91:
+                        MaximumSize: 24.0
+                        MinimumSize: 24.0
+                        Type: Fixed
+                    c0b2a5cde781b1f25b9a36ea0460acdf: {}
+                LayerDefinitions: {}
+            Base:
+                BasePartAsset: 59e8fd01-be6f-46fd-a05d-74521eea8427:UILibrary
+                BasePartId: 1e748603-1082-43a9-8713-be61c4b833a2
+                InstanceId: 1212d894-1c9e-4080-9adf-e43d19222e84
+        -   UIElement: !ToggleButton
+                Id: 3dedf88e-c430-4971-8888-7cf68329ae0a
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Width: 300.0
+                Height: 32.0
+                HorizontalAlignment: Left
+                VerticalAlignment: Top
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Name: EntityTreeTab
+                Content: !TextBlock ref!! 601e153f-db00-44f1-90c6-a2f34650340b
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: 601e153f-db00-44f1-90c6-a2f34650340b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Open Entity Tree
+                Font: e95a976c-0547-40ed-a04b-079096c0d77a:SpriteFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+        -   UIElement: !Grid
+                Id: 664574da-056a-4285-9663-f0cee959e29b
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Width: 1280.0
+                Height: 720.0
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    5d5384a59cc6c64605010c8f4207ed97: !ToggleButton ref!! 3dedf88e-c430-4971-8888-7cf68329ae0a
+                    38dd96773ec9a3f5881075c151a85794: !StackPanel ref!! 2f9f45c6-de3c-4e8b-afde-5e416e8c69e3
+                    40796da421873325d188fd6671aa82a6: !StackPanel ref!! 88e30690-4f6c-4582-9f94-7b6dcfac4604
+                RowDefinitions: {}
+                ColumnDefinitions: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                Id: 73f81ab2-e6d8-4a49-b373-2b98751d5d32
+                DependencyProperties:
+                    772d213ba6740016f78a09eeab40cfa7~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Left: 3.0, Top: 0.0, Right: 3.0, Bottom: 0.0}
+                Content: !TextBlock ref!! 9407de3b-a9cf-44db-a207-096e06144c3c
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: null
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+            Base:
+                BasePartAsset: 59e8fd01-be6f-46fd-a05d-74521eea8427:UILibrary
+                BasePartId: ca6b9329-5047-4125-adcf-5d5a81e5a900
+                InstanceId: 1212d894-1c9e-4080-9adf-e43d19222e84
+        -   UIElement: !StackPanel
+                Id: 88e30690-4f6c-4582-9f94-7b6dcfac4604
+                DependencyProperties: {}
+                BackgroundColor: {R: 197, G: 197, B: 197, A: 255}
+                Width: 300.0
+                Height: 688.0
+                HorizontalAlignment: Left
+                Margin: {Left: 300.0, Top: 32.0}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children: {}
+        -   UIElement: !ToggleButton
+                Id: 911f96f0-b9e6-48fe-ac6c-cdcc1a649350
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Left: 0.0, Top: 0.0, Right: 0.0, Bottom: 0.0}
+                Content: !TextBlock ref!! 1669ebf9-ec18-424b-890f-8396b141a97c
+                CheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 11
+                UncheckedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 13
+                IndeterminateImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 12
+        -   UIElement: !TextBlock
+                Id: 9407de3b-a9cf-44db-a207-096e06144c3c
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Click me!
+                Font*: e95a976c-0547-40ed-a04b-079096c0d77a:SpriteFont
+                TextSize: 16.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+            Base:
+                BasePartAsset: 59e8fd01-be6f-46fd-a05d-74521eea8427:UILibrary
+                BasePartId: 7bf822f6-e6f1-48b7-abfd-f45304115aa2
+                InstanceId: 1212d894-1c9e-4080-9adf-e43d19222e84
+        -   UIElement: !TextBlock
+                Id: 9843673b-01b4-4953-b8f0-bb0daa82bf18
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Left
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: Click me!
+                Font: e95a976c-0547-40ed-a04b-079096c0d77a:SpriteFont
+                TextSize: 16.0
+                TextColor: {R: 0, G: 0, B: 0, A: 255}
+        -   UIElement: !Grid
+                Id: 9e9800c9-ba62-4735-9b8c-e80e0382fb21
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    71111fcf3cb0483486aa6b2cf0aa8e38: !Grid ref!! e473e920-9e8c-4e76-b0bf-6867254de5dd
+                RowDefinitions:
+                    4ffac4d876388e534a90953ccc86673f:
+                        MaximumSize: 3.40282347E+38
+                        MinimumSize: 24.0
+                        Type: Fixed
+                ColumnDefinitions:
+                    54a0b1af60c678c9bf8582b3f2594d91:
+                        MaximumSize: 24.0
+                        MinimumSize: 24.0
+                        Type: Fixed
+                    c0b2a5cde781b1f25b9a36ea0460acdf: {}
+                LayerDefinitions: {}
+        -   UIElement: !TextBlock
+                Id: cac34010-9889-4584-8d22-64b842654589
+                DependencyProperties: {}
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                HorizontalAlignment: Center
+                VerticalAlignment: Center
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Text: +
+                Font: c90f3988-0544-4cbe-993f-13af7d9c23c6:StrideDefaultFont
+                TextSize: 20.0
+                TextColor: {R: 240, G: 240, B: 240, A: 255}
+            Base:
+                BasePartAsset: 59e8fd01-be6f-46fd-a05d-74521eea8427:UILibrary
+                BasePartId: 2cd54d05-5b27-4570-8909-6913d25859bb
+                InstanceId: 1212d894-1c9e-4080-9adf-e43d19222e84
+        -   UIElement: !Grid
+                Id: e473e920-9e8c-4e76-b0bf-6867254de5dd
+                DependencyProperties:
+                    592ce12c17561773252331a1da8bb75e~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Children:
+                    2d7c8ea9b20c81bba459bc936087ab72: !ToggleButton ref!! 911f96f0-b9e6-48fe-ac6c-cdcc1a649350
+                    1d5caed482eda9019fdf8f90efaaf890: !Button ref!! ebfd78a1-0c04-454a-b10c-a95281e1f79f
+                RowDefinitions:
+                    4ffac4d876388e534a90953ccc86673f:
+                        MaximumSize: 3.40282347E+38
+                        MinimumSize: 24.0
+                        Type: Fixed
+                ColumnDefinitions:
+                    54a0b1af60c678c9bf8582b3f2594d91:
+                        MaximumSize: 24.0
+                        MinimumSize: 24.0
+                        Type: Fixed
+                    c0b2a5cde781b1f25b9a36ea0460acdf: {}
+                LayerDefinitions: {}
+        -   UIElement: !Button
+                Id: ebfd78a1-0c04-454a-b10c-a95281e1f79f
+                DependencyProperties:
+                    772d213ba6740016f78a09eeab40cfa7~GridBase.ColumnPropertyKey: 1
+                BackgroundColor: {R: 0, G: 0, B: 0, A: 0}
+                DrawLayerNumber: 2
+                Margin: {}
+                MaximumWidth: 3.40282347E+38
+                MaximumHeight: 3.40282347E+38
+                MaximumDepth: 3.40282347E+38
+                Padding: {Left: 3.0, Top: 0.0, Right: 3.0, Bottom: 0.0}
+                Content: !TextBlock ref!! 9843673b-01b4-4953-b8f0-bb0daa82bf18
+                PressedImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns
+                    CurrentFrame: 2
+                NotPressedImage: !SpriteFromSheet
+                    Sheet: null
+                    CurrentFrame: 1
+                MouseOverImage: !SpriteFromSheet
+                    Sheet: 1be3340c-b797-4557-bff7-d9be92dfdb42:StrideUIDesigns

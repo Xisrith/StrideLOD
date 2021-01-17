@@ -1,0 +1,23 @@
+!PrefabAsset
+Id: f2f6885b-916e-421c-95fb-08705e9a3752
+SerializedVersion: {Stride: 3.1.0.1}
+Tags: []
+Hierarchy:
+    RootParts:
+        - ref!! 3573cef7-3119-4f16-80fd-8d1119624a4c
+    Parts:
+        -   Entity:
+                Id: 3573cef7-3119-4f16-80fd-8d1119624a4c
+                Name: Sphere, Static 1080
+                Components:
+                    f65f0ec6787400c3a433dd93ba78b2ce: !TransformComponent
+                        Id: 3d4c08ec-da79-4d29-8e58-42fffd4081a2
+                        Position: {X: 0.0, Y: 1.0, Z: 0.0}
+                        Rotation: {X: 0.0, Y: 0.0, Z: 0.0, W: 1.0}
+                        Scale: {X: 1.0, Y: 1.0, Z: 1.0}
+                        Children: {}
+                    821e99fb92948545a3fce73b67dd07fe: !ModelComponent
+                        Id: eff59791-88c1-4889-af2c-6a24819682ee
+                        Model: f6683cc9-b907-4b1f-8945-659ddffe881e:LOD/Models/1280
+                        Materials:
+                            b8b0279cec10f9b5ce72ae45bfa43bc5~0: 6a76eb24-dfbb-49dd-8c88-36c9b37aeb26:LOD/Materials/static_1080

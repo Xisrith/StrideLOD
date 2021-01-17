@@ -1,0 +1,15 @@
+!Model
+Id: f6683cc9-b907-4b1f-8945-659ddffe881e
+SerializedVersion: {Stride: 2.0.0.0}
+Tags: []
+Source: !file ../../../../LOD/1280.fbx
+Skeleton: null
+PivotPosition: {X: 0.0, Y: 0.0, Z: 0.0}
+Materials:
+    036ff26f38c2bb18ca711c04a9270672:
+        Name: Material
+        MaterialInstance:
+            Material: null
+Modifiers: {}
+~SourceHashes:
+    91462649fceb10a8f3b76188efa243e3~../../../../LOD/1280.fbx: e6d90352770f975830695e6df6a12671
