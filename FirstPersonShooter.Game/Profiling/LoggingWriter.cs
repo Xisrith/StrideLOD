@@ -21,8 +21,6 @@ namespace FirstPersonShooter.Profiling
 
             Services.AddService(loggingManager);
 
-            return;
-
             while (Game.IsRunning)
             {
                 if (Enabled)
